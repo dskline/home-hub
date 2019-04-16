@@ -1,0 +1,35 @@
+{
+  "name": "home-hub",
+  "description": "React Native application for managing (personal) home tasks",
+  "version": "0.1.0",
+  "author": "Spencer Kline",
+  "repository": "https://www.github.com/dskline/home-hub",
+  "license": "MIT",
+  "keywords": ["expo", "react-native", "typescript", "native-base"],
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.0.1",
+    "expo": "^32.0.0",
+    "native-base": "^2.12.1",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-navigation": "^3.8.1"
+  },
+  "devDependencies": {
+    "@types/expo": "^32.0.10",
+    "babel-preset-expo": "^5.0.0",
+    "eslint": "5.12.0",
+    "eslint-config-dskline": "^1.0.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "dskline"
+    ]
+  }
+}

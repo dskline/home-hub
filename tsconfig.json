@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "outDir": "build/lib",
+    "module": "es2015",
+    "target": "es2015",
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "sourceMap": true,
+    "importHelpers": true,
+    "allowJs": false,
+    "jsx": "react-native",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "expo": [
+        "../node_modules/@types/expo",
+        "../node_modules/expo"
+      ]
+    }
+  },
+  "include": [
+    "app/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
